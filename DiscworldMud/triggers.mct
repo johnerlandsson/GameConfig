@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- Saved on Tuesday, November 25, 2025, 8:40 pm -->
+<!-- MuClient version 5.06 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+<muclient>
+
+<!-- triggers -->
+
+<triggers
+   muclient_version="5.06"
+   world_file_version="15"
+   date_saved="2025-11-25 20:40:23"
+  >
+  <trigger
+   custom_colour="9"
+   enabled="y"
+   group="Highlighted Words"
+   ignore_case="y"
+   keep_evaluating="y"
+   match="\bProdo Laggins\b"
+   regexp="y"
+   repeat="y"
+   sequence="90"
+   other_text_colour="gray"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="(.*?)[f F]lickering firelight(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="(.*?)the sea serpent (lunges|reaches|strikes)(.*?)Run!$"
+   name="Serpent_attack_me"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="The powerful headwind causes*"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="1"
+   group="Quest"
+   keep_evaluating="y"
+   match="\bgreen frog\b"
+   name="KissFrog"
+   regexp="y"
+   repeat="y"
+   sequence="100"
+  >
+  <send>kiss frog
+</send>
+  </trigger>
+  <trigger
+   custom_colour="3"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?) stamp(.*?) out the fire\.(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)A massive kraken crests from the water ahead of the ship(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="11"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)Fire fills the room\, burning merrily without regard(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="3"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)Looking like it recognises the shipwright\'s hammer somehow\, all of the remaining dire seaweed detaches from the hull and flees into the ocean\.(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="2"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)You cannot concentrate enough to throw one of your steel\-tipped harpoons(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="3"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)You manage to shatter all the remaining sea ice on the hull\.(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="3"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)You tie the coil of rope securely(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="11"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)a small fire has started here(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)dragon looks up at (.*?) enters\, accidentally spraying flame over the floorboards\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)finished off the last of the(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="5"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)ice has formed(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="5"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)ice might be forming on the hull(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="3"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)putting it out in a cloud of steam\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)round a few times before escaping pointing in a different direction(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)several blazes are eagerly licking at the floorboards(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="5"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)slippery layer of ice\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)swamp dragon leaps upon the squeaky toy animal and spends an enjoyable three and a half minutes tearing it to squeaking shreds\.  Finally\, it climbs atop the pile of rubber scraps and sits there triumphantly\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)tentacle (.*?) around(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)the room is filled with a huge conflagration(.*?)sparks spilling(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="2"
+   enabled="y"
+   group="Sailing"
+   match="^(.*?)you feel too tired to tie any knots(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="6"
+   enabled="y"
+   group="Sailing"
+   match="^(?!.*Run!\s*$)(.*?)the sea serpent (lunges|reaches|strikes)(.*?)$"
+   name="Serpent_other"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^A little bell on the MK I Boiling Engine rings to indicate that it\'s out of water\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^Caught in a strong backwards current(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^Caught in a strong forwards current(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="3"
+   enabled="y"
+   group="Sailing"
+   match="^Steam whistles from the smokestack as the ship begins to move\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^The impact knocks the ship slightly off course(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^The ship abruptly starts spinning in circles\.  After a few rounds\, it manages to escape the whirlpool\, heading in a different direction from before\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^The ship plows through a field of floating dire seaweed\, some of which glows green and latches onto the hull aggressively\!$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^The steam from the smokestack dwindles to nothing as the ship slows to a halt\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="3"
+   enabled="y"
+   group="Sailing"
+   match="^The water on the floor washes over the fire\, putting it out in a gush of steam\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^Under the strain\, your rope gives up the ghost and unravels completely into wispy threads that float away in the wind\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^You throw the ball a few more times\, getting a little further each time to keep (.*?) swamp dragon entertained\, until a particularly hard throw sends it bouncing right off the ship\.  Oh well\.$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   group="Sailing"
+   match="^You try to tie(.*?)$"
+   regexp="y"
+   sequence="100"
+  >
+  </trigger>
+</triggers>
+</muclient>
