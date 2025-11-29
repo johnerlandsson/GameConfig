@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE muclient>
-<!-- Saved on Tuesday, November 25, 2025, 8:33 pm -->
+<!-- Saved on Thursday, November 27, 2025, 8:45 pm -->
 <!-- MuClient version 5.06 -->
 <!-- Written by Nick Gammon -->
 <!-- Home Page: http://www.mushclient.com/ -->
@@ -11,7 +11,7 @@
 <aliases
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2025-11-25 20:33:42"
+   date_saved="2025-11-27 20:45:42"
   >
   <alias
    name="Break_Ice"
@@ -172,12 +172,12 @@ drop board&amp;nails</send>
   </alias>
   <alias
    name="Play_dragon"
-   match="pdragon"
+   match="pdrag *"
    enabled="y"
    group="Sailing"
    sequence="100"
   >
-  <send>take %1
+  <send>get %1
 f
 drop %1
 take toy 1 from hunter's pack
@@ -185,6 +185,7 @@ squeeze my toy
 throw my ball 
 wait
 take %1
+a
 put my dragon in circle</send>
   </alias>
   <alias
