@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE muclient>
-<!-- Saved on Thursday, November 27, 2025, 8:45 pm -->
+<!-- Saved on Saturday, November 29, 2025, 11:09 am -->
 <!-- MuClient version 5.06 -->
 <!-- Written by Nick Gammon -->
 <!-- Home Page: http://www.mushclient.com/ -->
@@ -11,7 +11,7 @@
 <aliases
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2025-11-27 20:45:42"
+   date_saved="2025-11-29 11:09:35"
   >
   <alias
    name="Break_Ice"
@@ -95,7 +95,7 @@ bury empty tank</send>
   </alias>
   <alias
    name="Hit_Dragon"
-   match="hd"
+   match="hd *"
    enabled="y"
    group="Sailing"
    sequence="100"
@@ -189,6 +189,21 @@ a
 put my dragon in circle</send>
   </alias>
   <alias
+   name="Port_to_starboard"
+   match="ptosb"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>f
+f
+sf
+sa
+a
+a
+stamp out fire</send>
+  </alias>
+  <alias
    name="Repair_hull"
    match="rh"
    enabled="y"
@@ -196,6 +211,21 @@ put my dragon in circle</send>
    sequence="100"
   >
   <send>repair hull with board and nails</send>
+  </alias>
+  <alias
+   name="Starboard_to_Port"
+   match="sbtop"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>f
+f
+pf
+pa
+a
+a
+stamp out fire</send>
   </alias>
   <alias
    name="Put_out_fire"

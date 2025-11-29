@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE muclient>
-<!-- Saved on Saturday, November 29, 2025, 10:03 am -->
+<!-- Saved on Saturday, November 29, 2025, 11:58 am -->
 <!-- MuClient version 5.06 -->
 <!-- Written by Nick Gammon -->
 <!-- Home Page: http://www.mushclient.com/ -->
@@ -11,7 +11,7 @@
 <triggers
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2025-11-29 10:03:06"
+   date_saved="2025-11-29 11:58:42"
   >
   <trigger
    custom_colour="9"
@@ -24,6 +24,14 @@
    repeat="y"
    sequence="90"
    other_text_colour="gray"
+  >
+  </trigger>
+  <trigger
+   custom_colour="7"
+   enabled="y"
+   match="(.*?)Run!$"
+   regexp="y"
+   sequence="100"
   >
   </trigger>
   <trigger
@@ -50,6 +58,7 @@
    group="Sailing"
    match="(.*?)the sea serpent (lunges|reaches|strikes)(.*?)Run!$"
    name="Serpent_attack_me"
+   regexp="y"
    sequence="100"
   >
   </trigger>
