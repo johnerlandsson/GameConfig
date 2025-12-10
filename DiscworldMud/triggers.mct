@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE muclient>
-<!-- Saved on Saturday, November 29, 2025, 11:58 am -->
+<!-- Saved on Tuesday, December 09, 2025, 3:34 pm -->
 <!-- MuClient version 5.06 -->
 <!-- Written by Nick Gammon -->
 <!-- Home Page: http://www.mushclient.com/ -->
@@ -11,7 +11,7 @@
 <triggers
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2025-11-29 11:58:42"
+   date_saved="2025-12-09 15:34:16"
   >
   <trigger
    custom_colour="9"
@@ -19,19 +19,11 @@
    group="Highlighted Words"
    ignore_case="y"
    keep_evaluating="y"
-   match="\bProdo Laggins\b"
+   match="\bCaptain Carrot\b"
    regexp="y"
    repeat="y"
    sequence="90"
    other_text_colour="gray"
-  >
-  </trigger>
-  <trigger
-   custom_colour="7"
-   enabled="y"
-   match="(.*?)Run!$"
-   regexp="y"
-   sequence="100"
   >
   </trigger>
   <trigger

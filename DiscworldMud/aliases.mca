@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE muclient>
-<!-- Saved on Saturday, November 29, 2025, 11:09 am -->
+<!-- Saved on Wednesday, December 10, 2025, 7:23 pm -->
 <!-- MuClient version 5.06 -->
 <!-- Written by Nick Gammon -->
 <!-- Home Page: http://www.mushclient.com/ -->
@@ -11,7 +11,7 @@
 <aliases
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2025-11-29 11:09:35"
+   date_saved="2025-12-10 19:23:32"
   >
   <alias
    name="Break_Ice"
@@ -109,7 +109,16 @@ bury empty tank</send>
    group="Sailing"
    sequence="100"
   >
-  <send>look dragons&amp;boiler</send>
+  <send>look dragons&amp;dials</send>
+  </alias>
+  <alias
+   name="Look_Sky"
+   match="lk"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>look sky</send>
   </alias>
   <alias
    name="Look_overboard"
@@ -127,6 +136,15 @@ bury empty tank</send>
    sequence="100"
   >
   <send>l my tied rope</send>
+  </alias>
+  <alias
+   name="Look_sun"
+   match="ls"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>look sun</send>
   </alias>
   <alias
    name="Overboard"
@@ -155,7 +173,7 @@ board</send>
    group="Sailing"
    sequence="100"
   >
-  <send>gb
+  <send>get 2 boards&amp;4 nails
 overboard
 repair hull with boards and nails
 board
@@ -177,15 +195,13 @@ drop board&amp;nails</send>
    group="Sailing"
    sequence="100"
   >
-  <send>get %1
-f
+  <send>take %1
 drop %1
-take toy 1 from hunter's pack
+take toy 1 from backpack
 squeeze my toy
-throw my ball 
+throw my ball
 wait
 take %1
-a
 put my dragon in circle</send>
   </alias>
   <alias
@@ -247,15 +263,75 @@ stamp out fire</send>
   <send>stamp out fire</send>
   </alias>
   <alias
+   name="Throw_axe"
+   match="taxe"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>get axe 1&amp;axe 2 to hands
+throw left axe at serpent&amp;kraken
+throw right axe at serpent&amp;kraken
+drop axes
+hold knife</send>
+  </alias>
+  <alias
    name="Throw_harpoon"
    match="tharp"
    enabled="y"
    group="Sailing"
    sequence="100"
   >
-  <send>throw left harpoon at serpent&amp;kraken
+  <send>get harpoon 1&amp;harpoon 2 to hands
+throw left harpoon at serpent&amp;kraken
 throw right harpoon at serpent&amp;kraken
-get harpoon 1&amp;harpoon 2 to hands</send>
+drop harpoons
+hold knife</send>
+  </alias>
+  <alias
+   name="Centre_wheel"
+   match="tlc"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>centre wheel</send>
+  </alias>
+  <alias
+   name="Turn_wheel_port"
+   match="tlp"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>turn wheel port</send>
+  </alias>
+  <alias
+   name="Turn_wheel_port_2_notches"
+   match="tlpp"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>turn wheel port by 2 notches</send>
+  </alias>
+  <alias
+   name="Turn_wheel_starboard"
+   match="tls"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>turn wheel starboard</send>
+  </alias>
+  <alias
+   name="Turn_wheel_starboard_by_2"
+   match="tlss"
+   enabled="y"
+   group="Sailing"
+   sequence="100"
+  >
+  <send>turn wheel starboard by 2 notches</send>
   </alias>
 </aliases>
 </muclient>
