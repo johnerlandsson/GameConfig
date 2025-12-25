@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE muclient>
-<!-- Saved on Tuesday, December 09, 2025, 3:34 pm -->
+<!-- Saved on Thursday, December 25, 2025, 11:08 am -->
 <!-- MuClient version 5.06 -->
 <!-- Written by Nick Gammon -->
 <!-- Home Page: http://www.mushclient.com/ -->
@@ -11,7 +11,7 @@
 <triggers
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2025-12-09 15:34:16"
+   date_saved="2025-12-25 11:08:06"
   >
   <trigger
    custom_colour="9"
@@ -24,6 +24,20 @@
    repeat="y"
    sequence="90"
    other_text_colour="gray"
+  >
+  </trigger>
+  <trigger
+   custom_colour="9"
+   enabled="y"
+   group="Highlighted Words"
+   ignore_case="y"
+   keep_evaluating="y"
+   match="\btroll starlet\b"
+   regexp="y"
+   repeat="y"
+   sequence="90"
+   other_text_colour="gray"
+   other_back_colour="#090909"
   >
   </trigger>
   <trigger
@@ -48,7 +62,7 @@
    custom_colour="7"
    enabled="y"
    group="Sailing"
-   match="(.*?)the sea serpent (lunges|reaches|strikes)(.*?)Run!$"
+   match="(.*?)[tT]he sea serpent (lunges|reaches|strikes)(.*?)Run!$"
    name="Serpent_attack_me"
    regexp="y"
    sequence="100"
@@ -259,7 +273,7 @@
    custom_colour="6"
    enabled="y"
    group="Sailing"
-   match="^(?!.*Run!\s*$)(.*?)the sea serpent (lunges|reaches|strikes)(.*?)$"
+   match="^(?!.*Run!\s*$)(.*?)[tT]he sea serpent (lunges|reaches|strikes)(.*?)$"
    name="Serpent_other"
    regexp="y"
    sequence="100"
